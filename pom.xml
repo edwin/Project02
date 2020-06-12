@@ -55,11 +55,6 @@
       <version>7.26.0.Final-redhat-00006</version>
       <scope>provided</scope>
     </dependency>
-    <dependency>
-      <groupId>com.edw</groupId>
-      <artifactId>Project01</artifactId>
-      <version>1.0.17-SNAPSHOT</version>
-    </dependency>
   </dependencies>
   <build>
     <plugins>
