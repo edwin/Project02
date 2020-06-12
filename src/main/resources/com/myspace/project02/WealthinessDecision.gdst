@@ -41,7 +41,7 @@
           <constraintValueType>1</constraintValueType>
           <factField>salary</factField>
           <fieldType>BigInteger</fieldType>
-          <operator>&lt;</operator>
+          <operator>&lt;=</operator>
           <parameters/>
         </condition-column52>
         <condition-column52>
@@ -56,7 +56,7 @@
           <constraintValueType>1</constraintValueType>
           <factField>salary</factField>
           <fieldType>BigInteger</fieldType>
-          <operator>&gt;</operator>
+          <operator>&gt;=</operator>
           <parameters/>
         </condition-column52>
       </conditions>
