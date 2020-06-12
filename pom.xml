@@ -4,10 +4,20 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.myspace</groupId>
   <artifactId>Project02</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.1-SNAPSHOT</version>
   <packaging>kjar</packaging>
   <name>Project02</name>
-  <description>this to be included </description>
+  <description>this to be included</description>
+  <distributionManagement>
+    <repository>
+      <id>repo-custom</id>
+      <url>http://nexus:8081/repository/pam/</url>
+    </repository>
+    <snapshotRepository>
+      <id>repo-custom</id>
+      <url>http://nexus:8081/repository/pam/</url>
+    </snapshotRepository>
+  </distributionManagement>
   <dependencies>
     <dependency>
       <groupId>com.thoughtworks.xstream</groupId>
@@ -56,16 +66,4 @@
       </plugin>
     </plugins>
   </build>
-  
-  <distributionManagement>
-    <repository>
-      <id>repo-custom</id>
-      <url>http://nexus:8081/repository/pam/</url>
-    </repository>
-    <snapshotRepository>
-      <id>repo-custom</id>
-      <url>http://nexus:8081/repository/pam/</url>
-    </snapshotRepository>
-  </distributionManagement>
-  
 </project>
