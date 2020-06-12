@@ -3,6 +3,14 @@
     <repository>
       <include>true</include>
       <metadata>
+        <id>repo-custom</id>
+        <url>http://nexus-pam.apps.edwin-cluster.sandbox1243.opentlc.com/repository/maven-public/</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
         <id>central</id>
         <url>https://repo1.maven.org/maven2</url>
         <source>SETTINGS</source>
@@ -14,14 +22,6 @@
         <id>repo-custom</id>
         <url>http://nexus:8081/repository/pam/</url>
         <source>DISTRIBUTION_MANAGEMENT</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>repo-custom</id>
-        <url>http://nexus-pam.apps.edwin-cluster.sandbox1243.opentlc.com/repository/maven-public/</url>
-        <source>SETTINGS</source>
       </metadata>
     </repository>
     <repository>
